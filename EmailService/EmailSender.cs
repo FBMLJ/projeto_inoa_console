@@ -20,11 +20,11 @@ namespace EmailService {
         }
 
 
-        public void sendEmailParaVender(float valor_atual, float valor_de_venda_referenca, string moedaOrigem, string moedaDestino){
+        public void sendEmailParaVender(double valor_atual, double valor_de_venda_referenca, string moedaOrigem, string moedaDestino){
             smtpClient.Send(emailOrigem, emailDestino, "Aconselhamento sobre a venda do ativo ", $@"
                 Conforme o valor de venda de referencia inserido no sistema e o valor da contação {moedaOrigem} para {moedaDestino}, é recomendado efetuar a venda do ativo.
 
-                O resultado desse conselho é motivado que o valor de venda atual, {valor_de_venda_referenca}, ser menor que o {valor_atual}.
+                A motivação disso é que que o valor de venda atual, {valor_de_venda_referenca}, ser menor que o {valor_atual}.
 
                 Atenciosamente,
 
@@ -35,11 +35,11 @@ namespace EmailService {
             ");
         }
 
-        public void sendEmailParaCompra(float valor_atual, float valor_de_venda_referenca, string moedaOrigem, string moedaDestino){
+        public void sendEmailParaCompra(double valor_atual, double valor_de_venda_referenca, string moedaOrigem, string moedaDestino){
             smtpClient.Send(emailOrigem, emailDestino, "Aconselhamento sobre a compra do ativo", $@"
                 Conforme o valor de compra de referencia inserido no sistema e o valor da contação {moedaOrigem} para {moedaDestino}, é recomendado efetuar a compra do ativo.
 
-                O resultado desse conselho é motivado que o valor de venda atual, {valor_de_venda_referenca}, ser maior que o {valor_atual}.
+                A motivação disso é que o valor de venda atual, {valor_de_venda_referenca}, ser maior que o {valor_atual}.
 
                 Atenciosamente,
 
