@@ -8,7 +8,7 @@
 Para executar o programa basta digitar o seguinte comando na pasta raiz do projeto:
 
 ```
-    dotnet run
+dotnet run
 ```
 
 Lembrando que toda interação acontecem por meio de consoles
