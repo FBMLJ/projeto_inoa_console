@@ -46,20 +46,21 @@ namespace TrabalhoInoa {
             while(true){
                 // valor em milisegundos
                 Thread.Sleep(30*1000);
-                double valorAtual  =  getValorAtualCotacao();
-                if (valorAtual > valorReferenciaVenda) {
+                double valorAtualVenda  =  getValorAtualCotacaoVenda();
+                double valorAtualCompra  =  getValorAtualCotacaoCompra();
+                if (valorAtualVenda > valorReferenciaVenda) {
                     Console.WriteLine("Enviando email de venda");
-                    emailSender.sendEmailParaVender(valorAtual, valorReferenciaVenda,stringMoedaOrigem, stringMoedaDestino);
-                } else if (valorAtual < valorReferenciaCompra) {
+                    emailSender.sendEmailParaVender(valorAtualVenda, valorReferenciaVenda,stringMoedaOrigem, stringMoedaDestino);
+                } else if (valorAtualCompra < valorReferenciaCompra) {
                     Console.WriteLine("Enviando email de compra");
-                    emailSender.sendEmailParaCompra(valorAtual, valorReferenciaCompra,stringMoedaOrigem, stringMoedaDestino);
+                    emailSender.sendEmailParaCompra(valorAtualCompra, valorReferenciaCompra,stringMoedaOrigem, stringMoedaDestino);
                 }
 
             }
 
         }
 
-        public static float getValorAtualCotacao(){
+        public static float getValorAtualCotacaoVenda(){
             var request = WebRequest.Create(stringUrl);
             request.Method = "GET";
             using var webResponse = request.GetResponse();
@@ -71,6 +72,22 @@ namespace TrabalhoInoa {
             // Console.WriteLine(d);
             
             return d[stringMoedaOrigem+stringMoedaDestino]["bid"];
+
+
+        }
+
+        public static float getValorAtualCotacaoCompra(){
+            var request = WebRequest.Create(stringUrl);
+            request.Method = "GET";
+            using var webResponse = request.GetResponse();
+            using var webStream = webResponse.GetResponseStream();
+
+            using var reader = new StreamReader(webStream);
+            var data = reader.ReadToEnd();
+            dynamic d = JObject.Parse(data);
+            // Console.WriteLine(d);
+            
+            return d[stringMoedaOrigem+stringMoedaDestino]["ask"];
 
 
         }

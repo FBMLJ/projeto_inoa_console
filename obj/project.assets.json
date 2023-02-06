@@ -55,26 +55,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucas.tavares\\.nuget\\packages\\": {}
+    "C:\\Users\\Lucio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas.tavares\\Desktop\\teste\\teste.csproj",
+      "projectUniqueName": "D:\\Documentos - Usuario\\Desktop\\console_inoa\\projeto_inoa_console\\teste.csproj",
       "projectName": "teste",
-      "projectPath": "C:\\Users\\lucas.tavares\\Desktop\\teste\\teste.csproj",
-      "packagesPath": "C:\\Users\\lucas.tavares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas.tavares\\Desktop\\teste\\obj\\",
+      "projectPath": "D:\\Documentos - Usuario\\Desktop\\console_inoa\\projeto_inoa_console\\teste.csproj",
+      "packagesPath": "C:\\Users\\Lucio\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos - Usuario\\Desktop\\console_inoa\\projeto_inoa_console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lucas.tavares\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Lucio\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

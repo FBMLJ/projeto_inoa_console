@@ -15,3 +15,20 @@ C:\Users\lucas.tavares\Desktop\teste\obj\Debug\net7.0\refint\teste.dll
 C:\Users\lucas.tavares\Desktop\teste\obj\Debug\net7.0\teste.pdb
 C:\Users\lucas.tavares\Desktop\teste\obj\Debug\net7.0\teste.genruntimeconfig.cache
 C:\Users\lucas.tavares\Desktop\teste\obj\Debug\net7.0\ref\teste.dll
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\bin\Debug\net7.0\teste.exe
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\bin\Debug\net7.0\teste.deps.json
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\bin\Debug\net7.0\teste.runtimeconfig.json
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\bin\Debug\net7.0\teste.dll
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\bin\Debug\net7.0\teste.pdb
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\obj\Debug\net7.0\teste.csproj.AssemblyReference.cache
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\obj\Debug\net7.0\teste.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\obj\Debug\net7.0\teste.AssemblyInfoInputs.cache
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\obj\Debug\net7.0\teste.AssemblyInfo.cs
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\obj\Debug\net7.0\teste.csproj.CoreCompileInputs.cache
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\obj\Debug\net7.0\teste.csproj.CopyComplete
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\obj\Debug\net7.0\teste.dll
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\obj\Debug\net7.0\refint\teste.dll
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\obj\Debug\net7.0\teste.pdb
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\obj\Debug\net7.0\teste.genruntimeconfig.cache
+D:\Documentos - Usuario\Desktop\console_inoa\projeto_inoa_console\obj\Debug\net7.0\ref\teste.dll
